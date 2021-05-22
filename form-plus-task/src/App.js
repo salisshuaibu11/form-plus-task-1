@@ -13,9 +13,9 @@ import Spinner from './components/UI/Spinner';
 
 function App() {
     const dispatch = useDispatch();
-    // useEffect(() => {
-    //     dispatch(getTemplates());
-    // }, [dispatch]);
+    useEffect(() => {
+        dispatch(getTemplates());
+    }, [dispatch]);
 
     const {
         templates: { templates, category },
