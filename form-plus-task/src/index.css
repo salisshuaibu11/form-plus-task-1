@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.disabled {
+    pointer-events: none;
+    box-shadow: none;
+    color: #999;
+    cursor: not-allowed;
+}
